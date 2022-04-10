@@ -14,7 +14,7 @@ baseurl: ""
 username: Sathwik
 # typing_text: This will be typed before 'scroll down for more'.
 # > set this to your job title, e.g. Fullstack Developer
-typing_text: Hardware Verification Engineer
+typing_text: Hardware Engineer
 # email: Your E-Mail address for the email button.
 email: sathwikgs97@gmail.com
 # For every social button you want to display, set your username or userid
@@ -23,8 +23,8 @@ email: sathwikgs97@gmail.com
 github_username: longpdo
 codepen_username: exampleUser
 dev_username: exampleUser
-linkedin_username: exampleUser
-twitter_username: exampleUser
+linkedin_username: sathwik-g-s-ab64a348
+twitter_username: gsathwik
 
 # ABOUT ME SECTION
 # show_aboutme_card:
@@ -34,7 +34,11 @@ show_aboutme_card: true
 # about_me_title: The will be displayed as the title in the About Me section
 about_me_title: About Me
 # about_me_description: This will be displayed under the title.
-about_me_description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. If you like this theme and want to use it for yourself, checkout the source code and the documentation at <a class="highlight-link" href="https://github.com/longpdo/neumorphism" target="_blank" rel="noreferrer"> Github </a>. You can also find me on <a class="highlight-link" href="https://jamstackthemes.dev/theme/jekyll-neumorphism/" target="_blank" rel="noreferrer">JAMstack Themes</a> and on <a class="highlight-link" href="https://jekyll-themes.com/neumorphism/" target="_blank" rel="noreferrer">Jekyll Themes</a>.
+about_me_description: I'm an Engineer with keen interest in two distinct fields - Computer Architecture and Computer
+Vision. Essentially, I like to work closely with the physical realm of computing but at the same time love to inspect
+from a mathematical point of view. Currently intrigued by the RISC-V revolution on one hand and also lured into the
+visual based path planning task. If you would like to work with me on either if these topics feel free to reach out to
+me on my socials :)
 
 # SKILLS SECTION
 # show_skills_card:
@@ -110,7 +114,7 @@ projects:
 # Set the id, if you want to track your website with Google Analytics
 # > set this to "", if you do not want to track with Google Analytics
 google-analytics:
-  id: "UA-158757509-2"
+  id: ""
 
 ### END OF VALUES YOU SHOULD CHANGE ###
 
