@@ -1,69 +1,66 @@
-<h1 class="title">{{site.contact_title}}</h1>
-<p class="subtitle">{{site.contact_description}}</p>
+<!--h1 class="title">{{site.contact_title}}</h1>
 
 <div class="contact-icons">
-  {% if site.email != null %}
-  <a class="social-link" aria-label="My E-Mail" href="mailto:{{site.email}}">
-    <div class="social">
-      <svg class="social-svg" viewBox="0 0 48 48">
-        <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="{{ "/assets/img/solid.svg#envelope" | prepend: site.baseurl }}"></use>
-      </svg>
-    </div>
-  </a>
-  {% endif %}
+<form action="https://getform.io/f/af68ca41-f757-4195-8707-897c5ef12449" method="POST">
+  <h1>Leave your message !</h1>
+        <div class="info">
+          <input class="fname" type="text" name="Name" placeholder="Full name">
+        </div>
+        <div>
+        <input type="text" name="Email" placeholder="Email">
+        </div>
+        <p>Message</p>
+        <div>
+          <textarea rows="4" name="Message"></textarea>
+        </div>
+        <button type="submit" >Submit</button>    
+</form>
 
-  {% if site.github_username != null %}
-  <a class="social-link" aria-label="My GitHub" target="_blank" rel="noreferrer"
-    href="https://github.com/{{site.github_username}}">
-    <div class="social">
-      <svg class="social-svg" viewBox="0 0 48 48">
-        <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="{{ "/assets/img/brands.svg#github" | prepend: site.baseurl }}"></use>
-      </svg>
+</div-->
+   <style>
+      .main-block {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      }
+      form {
+      padding: 25px;
+      margin: 25px;
+      box-shadow: 0 2px 5px #f5f5f5; 
+      }
+      input, textarea {
+      width: calc(100% - 18px);
+      padding: 8px;
+      margin-bottom: 20px;
+      border: 1px solid #1c87c9;
+      outline: none;
+      }
+      input::placeholder {
+      }
+      button {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      font-size: 16px;
+      font-weight: 400;
+      color: #fff;
+      background-color: #484848;
+      }
+      button:hover {
+      }    
+    </style>
+    <div class="main-block">
+      <form action="/">
+        <h2>Leave a message !</h2>
+        <div class="info">
+          <input class="fname" type="text" name="name" placeholder="Name">
+          <input type="text" name="email" placeholder="Email">
+        </div>
+        <p>Message</p>
+        <div>
+          <textarea rows="5" name="Message"></textarea>
+        </div>
+        <button type="submit" href="/">Submit</button>
+      </form>
     </div>
-  </a>
-  {% endif %}
-
-  {% if site.codepen_username != null %}
-  <a class="social-link black" aria-label="My Codepen" target="_blank" rel="noreferrer"
-    href="https://codepen.io/{{site.codepen_username}}">
-    <div class="social">
-      <svg class="social-svg" viewBox="0 0 48 48">
-        <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="{{ "/assets/img/brands.svg#codepen" | prepend: site.baseurl }}"></use>
-      </svg>
-    </div>
-  </a>
-  {% endif %}
-
-  {% if site.dev_username != null %}
-  <a class="social-link black" aria-label="My DEV" target="_blank" rel="noreferrer"
-    href="https://dev.to/{{site.dev_username}}">
-    <div class="social">
-      <svg class="social-svg" viewBox="0 0 48 48">
-        <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="{{ "/assets/img/brands.svg#dev" | prepend: site.baseurl }}"></use>
-      </svg>
-    </div>
-  </a>
-  {% endif %}
-
-  {% if site.linkedin_username != null %}
-  <a class="social-link linkedin" aria-label="My LinkedIn" target="_blank" rel="noreferrer"
-    href="https://www.linkedin.com/in/{{site.linkedin_username}}">
-    <div class="social">
-      <svg class="social-svg" viewBox="0 0 48 48">
-        <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="{{ "/assets/img/brands.svg#linkedin-in" | prepend: site.baseurl }}"></use>
-      </svg>
-    </div>
-  </a>
-  {% endif %}
-
-  {% if site.twitter_username != null %}
-  <a class="social-link twitter" aria-label="My Twitter" target="_blank" rel="noreferrer"
-    href="https://twitter.com/{{site.twitter_username}}">
-    <div class="social">
-      <svg class="social-svg" viewBox="0 0 48 48">
-        <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="{{ "/assets/img/brands.svg#twitter" | prepend: site.baseurl }}"></use>
-      </svg>
-    </div>
-  </a>
-  {% endif %}
-</div>

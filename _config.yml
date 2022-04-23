@@ -34,11 +34,7 @@ show_aboutme_card: true
 # about_me_title: The will be displayed as the title in the About Me section
 about_me_title: About Me
 # about_me_description: This will be displayed under the title.
-about_me_description: I'm an Engineer with keen interest in two distinct fields - Computer Architecture and Computer
-Vision. Essentially, I like to work closely with the physical realm of computing but at the same time love to inspect
-from a mathematical point of view. Currently intrigued by the RISC-V revolution on one hand and also lured into the
-visual based path planning task. If you would like to work with me on either if these topics feel free to reach out to
-me on my socials :)
+about_me_description: I'm an Engineer with keen interest in two distinct fields - Computer Architecture and Computer Vision. Essentially, I like to work closely with the physical realm of computing but at the same time love to inspect from a mathematical point of view. Currently intrigued by the RISC-V revolution on one hand and also lured into the visual based path planning task. If you would like to work with me on either if these topics feel free to reach out to me on my socials.
 
 # SKILLS SECTION
 # show_skills_card:
