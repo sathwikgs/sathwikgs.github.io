@@ -3,28 +3,16 @@ layout: page
 title: About
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+I'm a Computer Hardware enthusiast with deep interests in developing next-gen domain-specific computer architectures. Currently working [@Qualcomm](https://twitter.com/qualcomm_in?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor), verifying top-of-the-line Qualcomm SoCs, specifically, validating various system-level scenarios for [DSPs](https://developer.qualcomm.com/software/hexagon-dsp-sdk/dsp-processor), Security IPs and Peripheral blocks.
+
+I have a bachelor's degree in Electronics and Communication Engineering from the [National Institute of Technology Karnataka](https://www.nitk.ac.in/). 
+
+<h2>Areas of Interest</h2>
+* RTL Design and Verification 
+* VLSI Architectures for Signal Processing
+* Domain-specific system design 
+* Hardware-Software Co-Design
+
+<p>
+Please find my detailed resume <a href="{{ site.baseurl }}docs/Resume.pdf" target="_blank">here</a>
 </p>
-
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
-
-There are currently two themes built on Poole:
-
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
-
-Learn more and contribute on [GitHub](https://github.com/poole).
-
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
