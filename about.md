@@ -14,5 +14,5 @@ I have a bachelor's degree in Electronics and Communication Engineering from the
 * Hardware-Software Co-Design
 
 <p>
-Please find my detailed resume <a href="{{ site.baseurl }}docs/Resume.pdf" target="_blank">here</a>
+Please find my detailed resume <a href="{{ site.baseurl }}docs/Resume_Sathwik_Industry.pdf" target="_blank">here</a>
 </p>
